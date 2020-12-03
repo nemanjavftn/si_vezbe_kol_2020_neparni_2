@@ -17,7 +17,24 @@ namespace WebFormaJelena
             TeamBusiness tb = new TeamBusiness();
             List<Team> lista = new List<Team>();
             lista = tb.getAllteams();
+
+            for(int j =0; j < lista.Count()-1; j++)
+            {
+                for(int l=j+1; l < lista.Count(); l++)
+                {
+                    if (lista[j].getSetPoints > lista[l].getSetPoints)
+                    {
+                        Team pom = lista[l];
+                        lista[j] = lista[l];
+                        lista[l] = pom;
+
+                    }
+                }
+            }
+
             int i = 1;
+
+
             foreach(Team t in lista)
             {
                 ListBox1.Items.Add(i+" " + t.ToString());
