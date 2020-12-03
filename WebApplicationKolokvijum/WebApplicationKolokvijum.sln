@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationKolokvijum", "WebApplicationKolokvijum\WebApplicationKolokvijum.csproj", "{7936A504-87E1-4893-A984-023A0CE1DFB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{CE6C465B-EAD2-492E-9B83-DD0F8B636B2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7936A504-87E1-4893-A984-023A0CE1DFB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7936A504-87E1-4893-A984-023A0CE1DFB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7936A504-87E1-4893-A984-023A0CE1DFB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7936A504-87E1-4893-A984-023A0CE1DFB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE6C465B-EAD2-492E-9B83-DD0F8B636B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6C465B-EAD2-492E-9B83-DD0F8B636B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6C465B-EAD2-492E-9B83-DD0F8B636B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6C465B-EAD2-492E-9B83-DD0F8B636B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F9EA05E-03F6-449C-A3FA-8D271960DE20}
+	EndGlobalSection
+EndGlobal
