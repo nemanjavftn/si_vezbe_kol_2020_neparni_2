@@ -23,7 +23,7 @@ namespace BussinesLayerTeams
             return this.teamsRepository.GetAllTeams();
         }
 
-        public bool InsertVeterinar(Team t)
+        public bool InsertTeam(Team t)
         {
             if (this.teamsRepository.InsertTeam(t) > 0)
             {
