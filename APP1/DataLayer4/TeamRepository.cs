@@ -40,7 +40,7 @@ namespace DataLayer4
                 SqlCommand com = new SqlCommand(commandText, con);
                 com.Parameters.AddWithValue("@nam", t.Name1);
                 com.Parameters.AddWithValue("@cou", t.Couch1);
-                com.Parameters.AddWithValue("@averagem", t.Points1);
+                com.Parameters.AddWithValue("@poi", t.Points1);
                 result = com.ExecuteNonQuery();
             }
             return result;

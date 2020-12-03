@@ -16,7 +16,7 @@ namespace BusinessLayer
             {
                 this.tr = new TeamRepository();
             }
-            public List<TeamT> getallteam()
+            public List<TeamT> getallteams()
             {
                 return this.tr.GetAllTeams();
             }
