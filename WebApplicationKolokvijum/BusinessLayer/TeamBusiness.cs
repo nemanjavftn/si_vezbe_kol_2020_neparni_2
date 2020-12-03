@@ -19,7 +19,7 @@ namespace BusinessLayer
 
         public List<Team> GetAllTeams()
         {
-            return this.teamRepository.GetAllTeams();
+            return this.teamRepository.GetAllTeams().OrderBy(t => t.Points).ToList();
         }
 
         public bool InsertTeam(Team t)
@@ -31,9 +31,5 @@ namespace BusinessLayer
             return false;
         }
 
-        public List<Team> SortTeamsPoints(int points)
-        {
-            return this.teamRepository.GetAllTeams().OrderBy(t => t.Points).ToList();
-        }
     }
 }
