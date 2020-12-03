@@ -24,12 +24,12 @@ namespace PresentationLayerTeams
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            FillList();
         }
 
         private void FillList()
         {
-            //listBoxIspis.Items.Clear();
+            listBoxIspis.Items.Clear();
 
 
             List<Team> teams = this.teamsBussiness.GetallTeam();

@@ -46,7 +46,6 @@ namespace PresentationLayerTeams
             this.listBoxIspis.Name = "listBoxIspis";
             this.listBoxIspis.Size = new System.Drawing.Size(251, 199);
             this.listBoxIspis.TabIndex = 0;
-            this.listBoxIspis.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // labelName
             // 

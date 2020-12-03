@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +78,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinesLayerTeams\BussinesLayerTeams.csproj">
+      <Project>{f987a849-122f-438a-824c-5548fd983ff4}</Project>
+      <Name>BussinesLayerTeams</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataLayerTeams\DataLayerTeams.csproj">
+      <Project>{be74418c-0759-48dc-b76a-4651b08d0740}</Project>
+      <Name>DataLayerTeams</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
