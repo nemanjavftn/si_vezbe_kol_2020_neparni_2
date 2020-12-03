@@ -45,7 +45,5 @@ namespace DataLayer4
             }
             return result;
         }
-
-
     }
 }
