@@ -1,7 +1,0 @@
-﻿CREATE TABLE [dbo].[Teams]
-(
-	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
-    [Name] NVARCHAR(100) NULL, 
-    [Couch] NVARCHAR(50) NULL, 
-    [Points] INT NOT NULL
-)
